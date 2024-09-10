@@ -30,6 +30,7 @@ ul{
   font-size: 40px;
   display: flex;
   align-items: center;
+  padding-left: 25px;
 }
 
 .cards{
@@ -56,8 +57,7 @@ ul{
 }
 
 .sidebar {
-  width: 300px;
-  flex-basis: 300px;
+  flex-basis: 150px;
   background: royalblue;
   box-sizing: border-box;
   flex-shrink: 0;
@@ -67,6 +67,6 @@ ul{
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  flex-basis: 30%;
+  flex-basis: 300px;
   padding: 10px;
 }
